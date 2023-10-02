@@ -1,0 +1,146 @@
+body{
+    background-color:  hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-top: 100px;
+}
+.mainContainer{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.leftSide{
+    text-align: left;
+    width: 50%;
+    padding: 20px;
+}
+.leftSide > p{
+    color: hsl(186, 14%, 43%);
+}
+.billDisplay{
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    text-align: center;
+}
+.billDisplay > svg{
+    margin-top:5px
+}
+.billDisplay input{
+    width: 100%;
+    text-align: right;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+}
+.tipSelection1, .tipSelection2{
+    display: flex;
+    text-align: center;
+}
+
+.selectedTip{
+    background-color:red;
+    color: hsl(183, 100%, 15%);
+}
+.selectedCustom{
+    background-color:red;
+}
+.tip{
+    background-color: hsl(183, 100%, 15%);
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 50%;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+
+}
+.tipCustom{
+    background-color: hsl(189, 41%, 97%);;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 50%;
+    color:  hsl(186, 14%, 43%);
+    margin-bottom: 10px;
+    border: none;
+    font-family: 'Space Mono', monospace;
+}
+
+.tipCustom > input{
+    text-align: center;
+    background-color: transparent;
+    border:none;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    height: 100%;
+}
+
+.rightSide{
+    background-color: hsl(183, 100%, 15%); 
+    width: 40%;
+    border-radius: 10px;
+    margin: 30px 20px;
+    padding: 20px;
+}
+
+.tiPPerPerson{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-align: left;
+}
+
+.tipText{
+color: white;
+margin-top: 20px;
+margin-bottom: 0px;
+
+}
+
+.tipDescription p:last-child{
+color:hsl(186, 14%, 43%); 
+font-size: 10px;
+margin-top: 0px;
+
+}
+.tipDiscount, .priceTotal{
+    color: hsl(172, 67%, 45%);
+    margin-top: 10px;
+    font-size: 30px;
+
+
+}
+.tiPPerPerson  > small{
+    top: 400px;
+}
+
+.ResetBtn{
+    margin-top: 80px;
+    width: 100%;
+    border: none;
+    background-color: hsl(172, 67%, 45%); 
+    padding: 10px;
+    border-radius: 5px;
+   font-weight: 900;
+   color:hsl(183, 100%, 15%);  ;
+}
+
